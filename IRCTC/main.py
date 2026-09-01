@@ -1,4 +1,6 @@
-from models.user import User
+from services.app import IRCTCApp
 
-user1=User()
-print(user1)
+
+app = IRCTCApp()
+
+app.start()
